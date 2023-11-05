@@ -1,0 +1,206 @@
+html{
+    background-image: url(imagedefond.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+body{
+    background-color: rgb(255, 255, 255,0.5);
+    height: 85vh;
+    width: 95vw;
+    border-radius:5px;
+    display: flex;
+    flex-direction:row;
+    
+}
+/*---------------------------------------------------------------HEADER-----------------------------------------------------------*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Sono', monospace;
+    width: 30%;
+    height: 100%;
+
+}
+
+.un{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.tetedhomme{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.edit{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.4);
+}
+
+.nav{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+}
+ 
+.icon{
+    height: 25px;
+    width:25px;
+    margin-right:15px;
+}
+
+.lien{
+    color: rgb(0, 0, 0, 0.4);
+    text-decoration: none;
+    padding-left: 20%;
+    box-sizing: border-box;
+    border-left: 5px solid rgba(0, 0, 0, 0);
+
+
+}
+.lien:hover{
+    color: black;
+    border-left: 5px solid black;
+    box-sizing: border-box;
+
+
+}
+
+.deux{
+    display:flex;
+    justify-content:flex-start;
+    width: 100%;
+}
+/*---------------------------------------------------------------MAIN---------------------------------------------------------------*/
+
+main{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    padding: 3%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+    font-family: 'Sono', monospace;
+    justify-content: space-around;
+   
+}
+
+.trois{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.span1{
+    color:rgb(0, 0, 0, 0.4)
+}
+
+.para{
+    color: rgb(0, 0, 0, 0.4);
+    text-align: end;
+}
+
+.span2{
+    text-decoration: none;
+    color:red;
+}
+
+.quatre{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size:x-small;
+    height: 220px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.homme2{
+    height: 50px;
+    width:50px;
+    border-radius: 30px;
+}
+
+.formatM{
+    height: 160px;
+    width: 160px;
+    border-radius: 6px;
+}
+
+.formatS{
+    height: 75px;
+    width: 75px;
+    border-radius: 6px;
+}
+
+.formatL{
+    height:145px;
+    width: 205px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.background{
+    background-image: url(./pics/flou.jpg);
+    background-size: cover;
+    font-size: 1.7em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.picture{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.picture2{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.picture3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sens{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.pic6{
+    height: 160px;
+    width:250px;
+    float: left;
+    border-radius: 5px;
+}
+
+
+
