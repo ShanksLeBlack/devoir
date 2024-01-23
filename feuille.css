@@ -201,6 +201,215 @@ main{
     float: left;
     border-radius: 5px;
 }
+/*-------------------------------------------------RESPONSIVE---------------------------------------------------------*/
+@media (max-width: 900px){
+     body{
+        background-color: rgb(255, 255, 255,0.5);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        margin: 0;
+        
+    }
+    /*---------------------------------------------------------------HEADER-----------------------------------------------------------*/
+    header{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Sono', monospace;
+        font-size:x-small;
+        width: 90%;
+        height: 20%;
+        
+    
+    }
+    
+    .un{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .tetedhomme{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    
+    .edit{
+        text-decoration: none;
+        color: rgb(0, 0, 0, 0.4);
+    }
+    
+    .nav{
+        display:flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    
+    }
+     
+    .icon{
+        height: 15px;
+        width:15px;
+        margin-right:15px;
+    }
+    
+    .lien{
+        color: rgb(0, 0, 0, 0.4);
+        text-decoration: none;
+        padding-left: 20%;
+        box-sizing: border-box;
+        border-left: 5px solid rgba(0, 0, 0, 0);
+    
+    
+    }
+    .lien:hover{
+        color: black;
+        border-left: 5px solid black;
+        box-sizing: border-box;
+    
+    
+    }
+    
+    .deux{
+        display:flex;
+        justify-content:flex-end;
+        width: 100%;
+        
+    }
+    /*---------------------------------------------------------------MAIN---------------------------------------------------------------*/
+    
+    main{
+        width: 100%;
+        background-color: white;
+        border-radius: 0px 5px 5px 0px;
+        padding: 3%;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction:column;
+        font-family: 'Sono', monospace;
+        justify-content: space-around;
+       
+    }
+    
+    .trois{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .span1{
+        color:rgb(0, 0, 0, 0.4)
+    }
+    
+    .para{
+        color: rgb(0, 0, 0, 0.4);
+        text-align: end;
+        width: 1000px;
+    }
+    
+    .span2{
+        text-decoration: none;
+        color:red;
+    }
+    
+    .quatre{
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size:x-small;
+    }
+    
+    .user{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homme2{
+        height: 50px;
+        width:50px;
+        border-radius: 30px;
+    }
+    
+    .formatM{
+        height: 105px;
+        width: 130px;
+        border-radius: 6px;
+    }
+    
+    .formatS{
+        height: 50px;
+        width: 50px;
+        border-radius: 6px;
+    }
+    
+    .formatL{
+        height: 100px;
+        width: 160px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    
+    .background{
+        background-image: url(./pics/flou.jpg);
+        background-size: cover;
+        font-size: 1.7em;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .picture{
+        display: flex;
+        flex-direction:row;
+        align-items: flex-start;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .picture2{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+       
+    
+    }
+    .picture3{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .sens{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .pic6{
+        height: 105px;
+        width:170px;
+        float: left;
+        border-radius: 5px;
+    }
 
+    .size{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .jerry{
+        display: flex;
+        flex-direction: row;
+    }
+}
 
